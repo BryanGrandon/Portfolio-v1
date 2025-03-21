@@ -1,0 +1,18 @@
+{
+    "header": {
+        "name": "Bryan Grandón",
+        "position": "Frontend Developer",
+        "title": "Hello, My name is",
+        "description": "Junior frontend developer whose goal is to create aesthetically pleasing and easy to understand designs for all audiences.",
+        "image": {
+            "src": "/src/assets/photo.webp",
+            "alt": ""
+        }
+    },
+    "links": {
+        "social": {
+            "github": "https://github.com/BryanGrandon",
+            "linkedin": ""
+        }
+    }
+}
