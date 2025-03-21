@@ -1,9 +1,10 @@
 import { JSX } from 'react'
+import Header from './components/layout/header'
 
 const App = (): JSX.Element => {
   return (
     <>
-      <h1>Portfolio</h1>
+      <Header />
     </>
   )
 }
