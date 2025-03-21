@@ -4,6 +4,7 @@
 html {
   @include scroll($main, $stroke, 0.1rem);
   @include selection($main, $stroke);
+  scrollbar-gutter: stable;
 }
 
 body {

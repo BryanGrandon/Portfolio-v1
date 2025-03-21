@@ -1,0 +1,101 @@
+@use '../utilities/mixin' as *;
+@use '../utilities/variables' as *;
+
+// #030303 color for main
+
+.header-container {
+  @include configureImage('/src/assets/header.webp', cover, top);
+  @include overlay($overlay-dark);
+}
+
+.nav {
+  position: relative;
+  @include flexbox(row, nowrap, space-between, center);
+  @include maxWidth($max-width);
+  padding: 1rem 2rem;
+
+  &__logo {
+    font-size: 1.2rem;
+  }
+  &__list {
+    @include flexbox(row, nowrap, normal, center);
+    gap: 1rem;
+  }
+  &__link {
+    &:hover {
+      color: $main;
+    }
+  }
+}
+
+.header {
+  position: relative;
+  @include flexbox(row-reverse, wrap, space-evenly, center);
+  @include maxWidth($max-width);
+  padding: 5rem 2rem;
+  gap: 2rem;
+  color: #b1b1b1;
+
+  &__img {
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    object-fit: contain;
+    object-position: top;
+    box-shadow: 2px 2px 4px #333333;
+  }
+  &__info {
+    display: grid;
+    gap: 1rem;
+    max-width: 40rem;
+  }
+  &__title {
+    font-size: 2rem;
+    color: $white;
+  }
+
+  &__social-links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__container {
+    display: grid;
+    gap: 0.3rem;
+  }
+}
+
+.name {
+  font-family: cursive;
+  font-style: italic;
+  color: $main;
+}
+.position {
+  color: $secondary;
+  font-style: italic;
+}
+.link-btn {
+  color: $main;
+
+  &:active {
+    transform: scale(0.9);
+  }
+  &__text {
+    height: 2rem;
+  }
+  &:hover .link-btn__text {
+    color: $secondary;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .header {
+    padding: 3rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 2rem;
+  }
+}
