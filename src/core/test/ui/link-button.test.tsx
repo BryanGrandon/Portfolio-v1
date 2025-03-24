@@ -3,7 +3,7 @@ import { afterEach, describe, expect, it } from 'vitest'
 import LinkButton from '../../components/ui/link-button'
 import { IGithub } from '../../components/ui/icons'
 
-describe('Button', () => {
+describe('Link button', () => {
   afterEach(cleanup)
 
   it('should render.', (): void => {
