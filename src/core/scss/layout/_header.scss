@@ -34,7 +34,7 @@
   @include maxWidth($max-width);
   padding: 5rem 2rem;
   gap: 2rem;
-  color: #b1b1b1;
+  color: #dbdbdb;
 
   &__img {
     border-radius: 50%;
@@ -80,7 +80,6 @@
     padding: 3rem 2rem;
   }
 }
-
 @media screen and (max-width: 600px) {
   .header {
     padding: 2rem;
