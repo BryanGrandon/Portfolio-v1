@@ -1,0 +1,19 @@
+@use '../utilities/mixin' as *;
+@use '../utilities/variables' as *;
+
+.link-button {
+  color: $main;
+  display: flex;
+  @include flexbox(row, nowrap, normal, center);
+
+  &:active {
+    transform: scale(0.9);
+  }
+  &:hover {
+    color: $secondary;
+  }
+}
+
+.icon__link-btn {
+  height: 2rem;
+}

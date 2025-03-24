@@ -74,19 +74,6 @@
   color: $secondary;
   font-style: italic;
 }
-.link-btn {
-  color: $main;
-
-  &:active {
-    transform: scale(0.9);
-  }
-  &__text {
-    height: 2rem;
-  }
-  &:hover .link-btn__text {
-    color: $secondary;
-  }
-}
 
 @media screen and (max-width: 1100px) {
   .header {

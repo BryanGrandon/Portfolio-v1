@@ -2,6 +2,8 @@
 @use './base/typography';
 @use './base/base';
 
+@use './ui/link-button';
+
 @use './layout/header';
 
 @use './utilities/mixin' as *;

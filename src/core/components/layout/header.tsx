@@ -1,5 +1,6 @@
 import { JSX } from 'react'
 import { IGithub, IIn } from '../ui/icons'
+import LinkButton from '../ui/link-button'
 import data from '../../services/data.json' assert { type: 'json' }
 
 const Header = (): JSX.Element => {
@@ -36,12 +37,8 @@ const Header = (): JSX.Element => {
           </section>
           <p>{description}</p>
           <section className='header__social-links'>
-            <a className='link-btn' target='__blank' href={social.github} aria-label='link for github'>
-              <IGithub className='link-btn__text' />
-            </a>
-            <a className='link-btn' target='__blank' href={social.linkedin} aria-label='link for linkedin'>
-              <IIn className='link-btn__text' />
-            </a>
+            <LinkButton href={social.github} ariaLabel='link for github' jsx={<IGithub className='icon__link-btn' />} />
+            <LinkButton href={social.github} ariaLabel='link for linkedin' jsx={<IIn className='icon__link-btn' />} />
           </section>
         </section>
       </article>
