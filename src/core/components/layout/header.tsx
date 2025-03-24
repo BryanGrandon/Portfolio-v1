@@ -12,13 +12,13 @@ const Header = (): JSX.Element => {
       <nav className='nav'>
         <p className='nav__logo'>BG.</p>
         <section className='nav__list'>
-          <a href='#' className='nav__link'>
+          <a href='#projects' className='nav__link'>
             Project
           </a>
-          <a href='#' className='nav__link'>
+          <a href='#about' className='nav__link'>
             About
           </a>
-          <a href='#' className='nav__link'>
+          <a href='#contact' className='nav__link'>
             Contact
           </a>
         </section>

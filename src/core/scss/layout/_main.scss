@@ -1,0 +1,73 @@
+@use '../utilities/mixin' as *;
+@use '../utilities/variables' as *;
+
+.main {
+  max-width: $max-width;
+  margin: auto;
+}
+
+.main > article {
+  min-height: 50dvh;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
+  border: 1px solid #f0f;
+  //   @include flexbox(row, wrap, normal, normal);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.project-card {
+  @include flexbox(row, nowrap, normal, normal);
+  box-shadow: 2px 2px 6px $stroke;
+  background-color: #030303;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  &:hover .project-card__title {
+    color: $secondary;
+  }
+  &:active {
+    scale: 0.9;
+  }
+
+  &__img {
+    width: 16rem;
+    object-fit: cover;
+  }
+
+  &__info {
+    width: auto;
+    padding: 1rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    color: $main;
+  }
+
+  &__description {
+    max-width: 40rem;
+    color: #cecece;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .projects {
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  }
+
+  .project-card {
+    flex-direction: column;
+
+    &__img {
+      width: auto;
+      height: 12rem;
+    }
+  }
+}
