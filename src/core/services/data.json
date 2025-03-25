@@ -21,28 +21,32 @@
             "title": "Color Palette",
             "description": "Generate your color palette for your projects",
             "img": "https://s0.smartresize.com/wallpaper/164/343/HD-wallpaper-sci-fi-black-hole-kurzgesagt-minimalist.jpg",
-            "url": "https://bryangrandon.github.io/Color-Palette/"
+            "url": "https://bryangrandon.github.io/Color-Palette/",
+            "ariaLabel": "link color palette"
         },
         {
             "id": 2,
             "title": "Pokedex",
             "description": "The pokedex is a device from the video game or animated series that allows you to view the statistics of the different pokemon.",
             "img": "https://s0.smartresize.com/wallpaper/164/343/HD-wallpaper-sci-fi-black-hole-kurzgesagt-minimalist.jpg",
-            "url": "https://bryangrandon.github.io/Pokedex/"
+            "url": "https://bryangrandon.github.io/Pokedex/",
+            "ariaLabel": "link pokedex"
         },
         {
             "id": 3,
             "title": "Rick and Morty",
             "description": "Find your favorite characters from the Rick and Morty series with their respective information that may surprise you.",
             "img": "https://s0.smartresize.com/wallpaper/164/343/HD-wallpaper-sci-fi-black-hole-kurzgesagt-minimalist.jpg",
-            "url": "https://bryangrandon.github.io/Rick-and-Morty/"
+            "url": "https://bryangrandon.github.io/Rick-and-Morty/",
+            "ariaLabel": "link rick and morty"
         },
         {
             "id": 4,
             "title": "Nasa",
             "description": "The NASA API provides access to a wide range of data and resources related to space, astronomy and planetary science.",
             "img": "https://s0.smartresize.com/wallpaper/164/343/HD-wallpaper-sci-fi-black-hole-kurzgesagt-minimalist.jpg",
-            "url": "https://bryangrandon.github.io/Nasa/"
+            "url": "https://bryangrandon.github.io/Nasa/",
+            "ariaLabel": "link Nasa"
         }
     ]
 }

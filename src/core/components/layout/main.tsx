@@ -1,4 +1,5 @@
 import data from '../../services/data.json' assert { type: 'json' }
+import ProjectCard from '../ui/project-card'
 
 const Main = () => {
   return (
@@ -7,13 +8,7 @@ const Main = () => {
         <h2>Projects</h2>
         <article className='projects'>
           {data.projects.map((e) => (
-            <a key={e.id} href={e.url} target='__black' className='project-card'>
-              <img className='project-card__img' src={e.img} alt='s' />
-              <section className='project-card__info'>
-                <h3 className='project-card__title'>{e.title}</h3>
-                <p className='project-card__description'>{e.description}</p>
-              </section>
-            </a>
+            <ProjectCard key={e.id} url={e.url} img={e.img} title={e.title} description={e.description} ariaLabel={e.ariaLabel} />
           ))}
         </article>
       </article>
