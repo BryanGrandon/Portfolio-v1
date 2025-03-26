@@ -1,11 +1,12 @@
 import data from '../../services/data.json' assert { type: 'json' }
 import ProjectCard from '../ui/project-card'
+import Title from '../ui/title'
 
 const Main = () => {
   return (
     <main className='main'>
       <article id='projects'>
-        <h2>Projects</h2>
+        <Title text='Projects' />
         <article className='projects'>
           {data.projects.map((e) => (
             <ProjectCard key={e.id} url={e.url} img={e.img} title={e.title} description={e.description} ariaLabel={e.ariaLabel} />
@@ -13,12 +14,16 @@ const Main = () => {
         </article>
       </article>
 
+      <article id='Stacks'>
+        <Title text='Stacks' />
+      </article>
+
       <article id='about'>
-        <h2>About</h2>
+        <Title text='About' />
       </article>
 
       <article id='contact'>
-        <h2>Contact</h2>
+        <Title text='Contact' />
       </article>
     </main>
   )
