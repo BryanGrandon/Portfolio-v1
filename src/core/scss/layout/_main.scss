@@ -4,6 +4,7 @@
 .main {
   max-width: $max-width;
   margin: auto;
+  padding: 1rem;
 }
 
 .main > article {
@@ -14,7 +15,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
   gap: 1rem;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 @media screen and (max-width: 1355px) {

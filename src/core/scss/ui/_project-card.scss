@@ -8,8 +8,9 @@
   border-radius: 1rem;
   overflow: hidden;
 
-  &:hover .project-card__title {
-    color: $secondary;
+  &:hover {
+    transform: translateY(-0.4rem);
+    outline: 1px solid $main;
   }
   &:active {
     scale: 0.9;
@@ -18,7 +19,6 @@
     width: 16rem;
   }
   &__info {
-    width: auto;
     padding: 1rem 1rem 2rem;
     display: flex;
     flex-direction: column;
