@@ -1,6 +1,7 @@
 import data from '../../services/data.json' assert { type: 'json' }
 import ProjectCard from '../ui/project-card'
 import Title from '../ui/title'
+import { AllIconsStack } from '../ui/icons'
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
 
       <article id='Stacks'>
         <Title text='Stacks' />
+        <section className='list-stack'>{AllIconsStack('list-stack__icons')}</section>
       </article>
 
       <article id='about'>
