@@ -4,20 +4,19 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   max-width: $max-width;
   margin: auto;
-  padding: 1rem;
-}
+  padding: 0 1rem;
 
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
-  gap: 1rem;
+  &__projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 1355px) {
-  .projects {
+  .main__projects {
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   }
 }
