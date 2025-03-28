@@ -19,6 +19,8 @@ const IIn = ({ className }: Icons) => {
   )
 }
 
+export { IGithub, IIn }
+
 // Stacks
 
 const IReact = ({ className }: Icons) => {
@@ -111,16 +113,38 @@ const IGit = ({ className }: Icons) => {
   )
 }
 
-const AllIconsStack = (className: string) => {
-  return [
-    <IHtml5 className={className} />,
-    <ICss3 className={className} />,
-    <IJavascript className={className} />,
-    <ITypescript className={className} />,
-    <ISass className={className} />,
-    <IReact className={className} />,
-    <IGit className={className} />,
-  ]
+type All_Icons_Stack = {
+  className: string
 }
 
-export { IGithub, IIn, IReact, IJavascript, ITypescript, ICss3, ISass, IHtml5, IGit, AllIconsStack }
+const AllIconsStack = ({ className }: All_Icons_Stack) => {
+  return (
+    <>
+      <IHtml5 className={className} />
+      <ICss3 className={className} />
+      <IJavascript className={className} />
+      <ITypescript className={className} />
+      <ISass className={className} />
+      <IReact className={className} />
+      <IGit className={className} />
+    </>
+  )
+}
+export { IReact, IJavascript, ITypescript, ICss3, ISass, IHtml5, IGit, AllIconsStack }
+
+// Other
+
+const ILink = ({ className }: Icons) => {
+  return (
+    <svg xmlns='http://www.w3.org/2000/svg' height='1.5rem' viewBox='0 0 24 24' className={className}>
+      <path
+        fill='none'
+        stroke='currentColor'
+        d='M13 6l2 -2c1 -1 3 -1 4 0l1 1c1 1 1 3 0 4l-5 5c-1 1 -3 1 -4 0M11 18l-2 2c-1 1 -3 1 -4 0l-1 -1c-1 -1 -1 -3 0 -4l5 -5c1 -1 3 -1 4 0'
+      >
+        <animate fill='freeze' attributeName='stroke-dashoffset' dur='0.6s' values='28;0' />
+      </path>
+    </svg>
+  )
+}
+export { ILink }

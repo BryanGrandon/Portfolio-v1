@@ -25,7 +25,7 @@ const Main = () => {
         }
       />
 
-      <MainTheme title='Stacks' children={<section className='list-stack'>{AllIconsStack('list-stack__icons')}</section>} />
+      <MainTheme title='Stacks' class_A='list-stack' children={<AllIconsStack className='list-stack__icons' />} />
     </main>
   )
 }
