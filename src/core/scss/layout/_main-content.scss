@@ -4,6 +4,7 @@
 .main {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   max-width: $max-width;
   margin: auto;
   padding: 0 1rem 3rem;
@@ -13,21 +14,35 @@
     grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
     gap: 1rem;
   }
+}
 
-  &__about {
-    @include flexbox(row, wrap, center, top);
-    gap: 2rem;
+.about {
+  @include flexbox(row, wrap, center, top);
+  gap: 2rem;
 
-    &__image {
-      max-width: 20rem;
-      border-radius: 2rem;
-      box-shadow: 1px 1px 5px $black;
-    }
-    &__text {
-      max-width: 40rem;
-      font-size: 1.1rem;
-      line-height: 1.7;
-    }
+  &__container {
+    @include flexbox(column, nowrap, normal, top);
+    gap: 1rem;
+  }
+  &__image {
+    max-width: 20rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px $black;
+  }
+  &__header {
+    font-weight: bold;
+    display: grid;
+    gap: 0.5rem;
+  }
+  &__name {
+    font-size: 2rem;
+  }
+  &__subtext {
+    text-shadow: 1px 1px $black;
+  }
+  &__text {
+    max-width: 40rem;
+    line-height: 1.7;
   }
 }
 

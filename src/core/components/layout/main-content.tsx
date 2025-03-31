@@ -6,7 +6,7 @@ import MainContentTheme from '../ui/main-content-theme'
 const MainContent = () => {
   const projects = data.projects
   const about = data.about
-  const { image } = data.staff
+  const { image, name } = data.staff
 
   return (
     <main className='main'>
@@ -33,12 +33,16 @@ const MainContent = () => {
 
       <MainContentTheme
         title='About'
-        class_A='main__about'
+        class_A='about'
         children={
           <>
-            <img src={image.src} alt={image.alt} className='main__about__image' />
-            <section>
-              <p className='main__about__text'>{about.text}</p>
+            <img src={image.src} alt={image.alt} className='about__image' />
+            <section className='about__container'>
+              <header className='about__header'>
+                <h3 className='about__name'>{name}</h3>
+                <p className='about__subtext'>A bit About Me</p>
+              </header>
+              <p className='about__text'>{about.text}</p>
             </section>
           </>
         }
