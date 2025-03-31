@@ -13,6 +13,22 @@
     grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
     gap: 1rem;
   }
+
+  &__about {
+    @include flexbox(row, wrap, center, top);
+    gap: 2rem;
+
+    &__image {
+      max-width: 20rem;
+      border-radius: 2rem;
+      box-shadow: 1px 1px 5px $black;
+    }
+    &__text {
+      max-width: 40rem;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+  }
 }
 
 @media screen and (max-width: 1355px) {

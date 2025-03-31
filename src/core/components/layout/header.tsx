@@ -5,7 +5,8 @@ import data from '../../services/data.json' assert { type: 'json' }
 import NavList from '../ui/nav-list'
 
 const Header = (): JSX.Element => {
-  const { image, title, description, position, name } = data.header
+  const { title, description } = data.header
+  const { name, position, image } = data.staff
   const { social } = data.links
 
   const [isActive, setIsActive] = useState(false)
