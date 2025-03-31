@@ -1,12 +1,12 @@
 import { JSX } from 'react'
 import Header from './components/layout/header'
-import Main from './components/layout/main'
+import MainContent from './components/layout/main-content'
 
 const App = (): JSX.Element => {
   return (
     <>
       <Header />
-      <Main />
+      <MainContent />
     </>
   )
 }

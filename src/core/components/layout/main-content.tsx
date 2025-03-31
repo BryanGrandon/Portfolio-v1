@@ -1,12 +1,12 @@
 import data from '../../services/data.json' assert { type: 'json' }
 import ProjectCard from '../ui/project-card'
 import { AllIconsStack } from '../ui/icons'
-import MainTheme from './main-theme'
+import MainContentTheme from '../ui/main-content-theme'
 
-const Main = () => {
+const MainContent = () => {
   return (
     <main className='main'>
-      <MainTheme
+      <MainContentTheme
         title='Projects'
         class_A='main__projects'
         children={
@@ -25,9 +25,9 @@ const Main = () => {
         }
       />
 
-      <MainTheme title='Stacks' class_A='list-stack' children={<AllIconsStack className='list-stack__icons' />} />
+      <MainContentTheme title='Stacks' class_A='list-stack' children={<AllIconsStack className='list-stack__icons' />} />
     </main>
   )
 }
 
-export default Main
+export default MainContent
