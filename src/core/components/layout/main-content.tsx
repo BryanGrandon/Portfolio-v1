@@ -42,7 +42,7 @@ const MainContent = () => {
                 <h3 className='about__name'>{name}</h3>
                 <p className='about__subtext'>A bit About Me</p>
               </header>
-              <p className='about__text'>{about.text}</p>
+              <p className='about__text'>{about.description}</p>
             </section>
           </>
         }
