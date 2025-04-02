@@ -19,7 +19,7 @@ const MainContent = () => {
               <ProjectCard
                 key={e.id}
                 url={e.url}
-                img={e.img}
+                image={e.image}
                 title={e.title}
                 description={e.description}
                 ariaLabel={e.ariaLabel}
