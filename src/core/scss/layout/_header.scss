@@ -8,65 +8,6 @@
   @include overlay($overlay-dark);
 }
 
-.nav {
-  position: relative;
-  @include flexbox(row, nowrap, space-between, center);
-  @include maxWidth($max-width);
-  padding: 1rem 2rem;
-
-  &__logo {
-    font-size: 1.2rem;
-  }
-  &__list {
-    @include flexbox(row, nowrap, normal, center);
-    gap: 1rem;
-  }
-  &__link {
-    &:hover {
-      color: $main;
-    }
-  }
-
-  &__routing {
-    color: $white;
-
-    &:hover {
-      color: $main;
-    }
-  }
-
-  &__button {
-    cursor: pointer;
-    display: none;
-    color: $white;
-    stroke-width: 0.1rem;
-    transition: all 0.3s ease-in-out;
-
-    &:hover {
-      transform: scale(1.2);
-      // box-shadow: 2px 2px 4px #333333;
-    }
-  }
-}
-
-.dropdown {
-  position: absolute;
-  top: 3rem;
-  right: 2rem;
-  left: 2rem;
-  background-color: $overlay-dark;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  box-shadow: 2px 2px 4px #333333;
-  z-index: 2;
-  @include flexbox(column, nowrap, normal, center);
-  gap: 1rem;
-}
-
-.dropdown-off {
-  display: none;
-}
-
 .header {
   position: relative;
   @include flexbox(row-reverse, wrap, space-evenly, center);
@@ -74,6 +15,8 @@
   padding: 5rem 2rem;
   gap: 2rem;
   color: #dbdbdb;
+  // min-height: 80dvh;
+  border: 1px solid #f00;
 
   &__img {
     border-radius: 50%;
@@ -118,17 +61,7 @@
   .header {
     padding: 3rem 2rem;
   }
-}
-@media screen and (max-width: 600px) {
-  .header {
-    padding: 2rem;
-  }
-  .nav {
-    &__list {
-      display: none;
-    }
-    &__button {
-      display: block;
-    }
+  .header-container {
+    @include configureImage('/src/assets/header.webp', cover, top);
   }
 }

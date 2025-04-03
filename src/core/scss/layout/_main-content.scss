@@ -2,16 +2,11 @@
 @use '../utilities/variables' as *;
 
 .main {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  max-width: $max-width;
-  margin: auto;
+  background-color: #030303;
   padding: 0 1rem 3rem;
 
   &__projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
+    @include flexbox(row, wrap, normal, normal);
     gap: 1rem;
   }
 }
@@ -43,12 +38,6 @@
   &__text {
     max-width: 40rem;
     line-height: 1.7;
-  }
-}
-
-@media screen and (max-width: 1355px) {
-  .main__projects {
-    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   }
 }
 

@@ -13,7 +13,7 @@ const ProjectCard = ({ image, url, title, description, ariaLabel }: Project_Card
       <img className='project-card__img' src={image.src} alt={image.alt} />
       <section className='project-card__info'>
         <h3 className='project-card__title'>{title}</h3>
-        <p>{description}</p>
+        <p style={{ position: 'relative' }}>{description}</p>
         <ILink className='project-card__link' />
       </section>
     </a>

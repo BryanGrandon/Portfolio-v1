@@ -47,6 +47,19 @@ const MainContent = () => {
           </>
         }
       />
+
+      <MainContentTheme
+        title='Contact'
+        class_A='contact'
+        children={
+          <section className='contact__container'>
+            <p className='contact__text'>If you want to get in touch, feel free to reach out!</p>
+            <a href={`mailto:bgrandon.corea@gmail.com`} className='contact__link'>
+              s
+            </a>
+          </section>
+        }
+      />
     </main>
   )
 }

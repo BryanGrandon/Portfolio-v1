@@ -1,32 +1,15 @@
-import { JSX, useState } from 'react'
-import { IBars3, IGithub, IIn } from '../ui/icons'
+import { JSX } from 'react'
+import { IGithub, IIn } from '../ui/icons'
 import LinkButton from '../ui/link-button'
 import data from '../../services/data.json' assert { type: 'json' }
-import NavList from '../ui/nav-list'
 
 const Header = (): JSX.Element => {
   const { title, description } = data.header
   const { name, position, image } = data.staff
   const { social } = data.links
 
-  const [isActive, setIsActive] = useState(false)
-
-  document.addEventListener('click', (e) => {
-    const target = e.target as HTMLElement
-    if (target.matches('.nav__routing')) setIsActive(false)
-  })
-
   return (
     <header className='header-container'>
-      <nav className='nav'>
-        <p className='nav__logo'>BG.</p>
-        <NavList className='nav__list' />
-        <button className='nav__button' aria-label='menu button' onClick={() => setIsActive(!isActive)}>
-          <IBars3 />
-        </button>
-        <NavList className={isActive ? 'dropdown' : 'dropdown-off'} />
-      </nav>
-
       <article className='header'>
         <img src={image.src} alt={image.alt} className='header__img' />
         <section className='header__info'>
