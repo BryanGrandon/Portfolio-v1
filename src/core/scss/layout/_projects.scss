@@ -1,0 +1,12 @@
+@use '../utilities/mixin' as *;
+@use '../utilities/variables' as *;
+
+.projects {
+  max-width: $max-width;
+  margin: auto;
+
+  &__container {
+    @include flexbox(row, wrap, normal, normal);
+    gap: 1rem;
+  }
+}

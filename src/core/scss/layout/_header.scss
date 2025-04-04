@@ -1,8 +1,6 @@
 @use '../utilities/mixin' as *;
 @use '../utilities/variables' as *;
 
-// #030303 color for main
-
 .header-container {
   @include configureImage('/src/assets/header.webp', cover, top);
   @include overlay($overlay-dark);
@@ -15,8 +13,6 @@
   padding: 5rem 2rem;
   gap: 2rem;
   color: #dbdbdb;
-  // min-height: 80dvh;
-  border: 1px solid #f00;
 
   &__img {
     border-radius: 50%;
