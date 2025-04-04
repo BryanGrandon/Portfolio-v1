@@ -1,0 +1,11 @@
+@use '../utilities/mixin' as *;
+@use '../utilities/variables' as *;
+
+.list-stack {
+  @include flexbox(row, wrap, space-evenly, center);
+  gap: 2rem;
+
+  &__icons {
+    height: 2.2rem;
+  }
+}

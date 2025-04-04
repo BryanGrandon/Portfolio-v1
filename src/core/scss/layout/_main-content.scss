@@ -4,48 +4,4 @@
 .main {
   background-color: #030303;
   padding: 0 1rem 3rem;
-
-  &__projects {
-    @include flexbox(row, wrap, normal, normal);
-    gap: 1rem;
-  }
-}
-
-.about {
-  @include flexbox(row, wrap, center, center);
-  gap: 2rem;
-
-  &__container {
-    @include flexbox(column, nowrap, normal, top);
-    gap: 1rem;
-  }
-  &__image {
-    max-width: 15rem;
-    border-radius: 50%;
-    box-shadow: 1px 1px 5px $black;
-  }
-  &__header {
-    font-weight: bold;
-    display: grid;
-    gap: 0.5rem;
-  }
-  &__name {
-    font-size: 2rem;
-  }
-  &__subtext {
-    text-shadow: 1px 1px $black;
-  }
-  &__text {
-    max-width: 40rem;
-    line-height: 1.7;
-  }
-}
-
-.list-stack {
-  @include flexbox(row, wrap, space-evenly, center);
-  gap: 2rem;
-
-  &__icons {
-    height: 2.2rem;
-  }
 }

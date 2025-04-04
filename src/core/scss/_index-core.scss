@@ -9,7 +9,10 @@
 
 @use './layout/header';
 @use './layout/main-content';
+
 @use './layout/projects';
+@use './layout/about';
+@use './layout/stack';
 
 @use './utilities/mixin' as *;
 @use './utilities/variables' as *;
