@@ -24,7 +24,7 @@ const Header = (): JSX.Element => {
           <p>{description}</p>
           <section className='header__social-links'>
             <LinkButton href={social.github} ariaLabel='link for github' jsx={<IGithub className='icon__link-btn' />} />
-            <LinkButton href={social.github} ariaLabel='link for linkedin' jsx={<IIn className='icon__link-btn' />} />
+            <LinkButton href={social.linkedin} ariaLabel='link for linkedin' jsx={<IIn className='icon__link-btn' />} />
           </section>
         </section>
       </article>

@@ -4,7 +4,6 @@
 
 @use './ui/link-button';
 @use './ui/project-card';
-@use './ui/main-content-theme';
 @use './ui/title';
 
 @use './layout/header';
@@ -13,6 +12,7 @@
 @use './layout/projects';
 @use './layout/about';
 @use './layout/stack';
+@use './layout/contact';
 
 @use './utilities/mixin' as *;
 @use './utilities/variables' as *;

@@ -1,0 +1,51 @@
+@use '../utilities/mixin' as *;
+@use '../utilities/variables' as *;
+
+.contact {
+  @include flexbox(column, nowrap, normal, center);
+  gap: 1.5rem;
+
+  &__info {
+    @include flexbox(row, nowrap, normal, center);
+    color: $white;
+    border-radius: 1rem;
+    width: max-content;
+    overflow: hidden;
+
+    &-gmail {
+      cursor: pointer;
+      border: 1px solid $main;
+      border-radius: 1rem 0 0 1rem;
+      padding: 0.3rem 1rem;
+
+      &:hover {
+        border-color: $secondary;
+      }
+      &--alert {
+        position: fixed;
+        top: 1rem;
+        right: 0rem;
+        border: 1px solid $secondary;
+        border-right: none;
+        border-radius: 1rem 0 0 1rem;
+        padding: 0.2rem 1rem;
+        color: $secondary;
+        background-color: #030303;
+        z-index: 1;
+      }
+    }
+    &-link {
+      display: block;
+      background-color: $main;
+      color: $black;
+      padding: 0.3rem 0.6rem;
+
+      &:hover {
+        background-color: $secondary;
+      }
+    }
+    &:hover .contact__info-gmail {
+      border-color: $secondary;
+    }
+  }
+}

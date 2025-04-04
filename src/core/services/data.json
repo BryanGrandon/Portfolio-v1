@@ -5,7 +5,8 @@
         "image": {
             "src": "/src/assets/photo.webp",
             "alt": "Bryan"
-        }
+        },
+        "gmail": "bryan.grandon.c@gmail.com"
     },
     "header": {
         "title": "Hello, My name is",
@@ -17,7 +18,7 @@
     "links": {
         "social": {
             "github": "https://github.com/BryanGrandon",
-            "linkedin": ""
+            "linkedin": "https://www.linkedin.com/in/bryan-grandon-62588835a/"
         }
     },
     "projects": [
