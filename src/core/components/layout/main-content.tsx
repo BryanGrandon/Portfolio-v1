@@ -1,7 +1,7 @@
 import data from '../../services/data.json' assert { type: 'json' }
-import { AllIconsStack } from '../ui/icons'
 import MainContentTheme from '../ui/main-content-theme'
 import Projects from './projects'
+import Stack from './stack'
 
 const MainContent = () => {
   const about = data.about
@@ -9,8 +9,7 @@ const MainContent = () => {
   return (
     <main className='main'>
       <Projects />
-
-      <MainContentTheme title='Stacks' class_A='list-stack' children={<AllIconsStack className='list-stack__icons' />} />
+      <Stack />
 
       <MainContentTheme
         title='About'
