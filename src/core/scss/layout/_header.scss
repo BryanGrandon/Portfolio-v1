@@ -2,7 +2,7 @@
 @use '../utilities/variables' as *;
 
 .header-container {
-  @include configureImage('/src/assets/header.webp', cover, top);
+  @include configureImage('/src/assets/header.webp', cover, center);
   @include overlay($overlay-dark);
 }
 
@@ -13,6 +13,7 @@
   padding: 5rem 2rem;
   gap: 2rem;
   color: #dbdbdb;
+  min-height: 75dvh;
 
   &__img {
     border-radius: 50%;

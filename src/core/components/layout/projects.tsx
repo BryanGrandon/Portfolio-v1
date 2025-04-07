@@ -17,6 +17,7 @@ const Projects = (): JSX.Element => {
             title={e.title}
             description={e.description}
             ariaLabel={e.ariaLabel}
+            technologies={e.technologies}
           />
         ))}
       </section>

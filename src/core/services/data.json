@@ -31,7 +31,41 @@
                 "alt": "Color Palette webp"
             },
             "url": "https://bryangrandon.github.io/Color-Palette/",
-            "ariaLabel": "link color palette"
+            "ariaLabel": "link color palette",
+            "technologies": [
+                {
+                    "alt": "React",
+                    "img": "https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"
+                },
+                {
+                    "alt": "TS",
+                    "img": "https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"
+                },
+                {
+                    "alt": "Vite",
+                    "img": "https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff"
+                },
+                {
+                    "alt": "Sass",
+                    "img": "https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white"
+                },
+                {
+                    "alt": "ReactRouterDom",
+                    "img": "https://img.shields.io/badge/-React%20Router-CA4245??style=flat&logo=react-router&logoColor=white"
+                },
+                {
+                    "alt": "Vitest",
+                    "img": "https://img.shields.io/badge/vitest-6E9F18?style=flat&logo=vitest&logoColor=white"
+                },
+                {
+                    "alt": "ReactToastify",
+                    "img": "https://img.shields.io/badge/React_Toastify-2D3136.svg?style=flat&logo=react&logoColor=white"
+                },
+                {
+                    "alt": "ExtractColor",
+                    "img": "https://img.shields.io/badge/Extract_Colors-2D3136.svg?style=flat&logo=npm&logoColor=white"
+                }
+            ]
         },
         {
             "id": 2,
@@ -42,7 +76,25 @@
                 "alt": "Pokedex webp"
             },
             "url": "https://bryangrandon.github.io/Pokedex/",
-            "ariaLabel": "link pokedex"
+            "ariaLabel": "link pokedex",
+            "technologies": [
+                {
+                    "alt": "React",
+                    "img": "https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"
+                },
+                {
+                    "alt": "Vite",
+                    "img": "https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff"
+                },
+                {
+                    "alt": "Sass",
+                    "img": "https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white"
+                },
+                {
+                    "alt": "ReactIcons",
+                    "img": "https://img.shields.io/badge/React_icons-2D3136.svg?style=flat&logo=react&logoColor=white"
+                }
+            ]
         },
         {
             "id": 3,
@@ -53,7 +105,29 @@
                 "alt": "Rick and Morty webp"
             },
             "url": "https://bryangrandon.github.io/Rick-and-Morty/",
-            "ariaLabel": "link Rick and Morty"
+            "ariaLabel": "link Rick and Morty",
+            "technologies": [
+                {
+                    "alt": "React",
+                    "img": "https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"
+                },
+                {
+                    "alt": "TS",
+                    "img": "https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"
+                },
+                {
+                    "alt": "Vite",
+                    "img": "https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff"
+                },
+                {
+                    "alt": "Sass",
+                    "img": "https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white"
+                },
+                {
+                    "alt": "ReactIcons",
+                    "img": "https://img.shields.io/badge/React_icons-2D3136.svg?style=flat&logo=react&logoColor=white"
+                }
+            ]
         },
         {
             "id": 4,
@@ -64,7 +138,25 @@
                 "alt": "Nasa webp"
             },
             "url": "https://bryangrandon.github.io/Nasa/",
-            "ariaLabel": "link Nasa"
+            "ariaLabel": "link Nasa",
+            "technologies": [
+                {
+                    "alt": "React",
+                    "img": "https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"
+                },
+                {
+                    "alt": "Vite",
+                    "img": "https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff"
+                },
+                {
+                    "alt": "Sass",
+                    "img": "https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white"
+                },
+                {
+                    "alt": "ReactIcons",
+                    "img": "https://img.shields.io/badge/React_icons-2D3136.svg?style=flat&logo=react&logoColor=white"
+                }
+            ]
         }
     ]
 }
