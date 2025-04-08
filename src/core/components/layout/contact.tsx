@@ -25,7 +25,7 @@ const Contact = (): JSX.Element => {
           <p className='contact__info-gmail' onClick={handlerClickCopyGmail}>
             {gmail}
           </p>
-          <a href={`mailto:bgrandon.corea@gmail.com`} className='contact__info-link'>
+          <a href={`mailto:bgrandon.corea@gmail.com`} className='contact__info-link' aria-label='Email'>
             <IEmail />
           </a>
         </section>
