@@ -5,7 +5,8 @@ import data from '../../services/data.json' assert { type: 'json' }
 
 describe('Header', () => {
   afterEach(cleanup)
-  const { title, description, image } = data.header
+  const { title, description } = data.header
+  const { image } = data.staff
 
   it('should render.', (): void => {
     render(<Header />)
