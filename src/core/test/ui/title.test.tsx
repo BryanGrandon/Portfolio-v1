@@ -16,7 +16,7 @@ describe('Title', () => {
 
   it('check if the className has the default class and the new added class.', (): void => {
     render(<Title text={'Color'} className='other-class' />)
-    const button = screen.getByText('Color')
-    expect(button).toHaveProperty('className', 'title other-class')
+    const title = screen.getByText('Color')
+    expect(title).toHaveProperty('className', 'title other-class')
   })
 })
