@@ -10,8 +10,6 @@ type Project_Card = {
   technologies?: { alt: string; img: string }[]
 }
 const ProjectCard = ({ image, url, title, description, ariaLabel, technologies }: Project_Card) => {
-  console.log(technologies)
-
   return (
     <a href={url} target='__black' className='project-card' aria-label={ariaLabel}>
       <img className='project-card__img' src={image.src} alt={image.alt} />

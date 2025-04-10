@@ -132,7 +132,7 @@
         {
             "id": 4,
             "title": "Nasa",
-            "description": "The NASA API provides access to a wide range of data and resources related to space, astronomy and planetary science.",
+            "description": "Astronomical Image of the Day: Presents each day a different image or photograph of our fascinating universe, along with a brief explanation written by a professional astronomer.",
             "image": {
                 "src": "/src/assets/projects/nasa.webp",
                 "alt": "Nasa webp"

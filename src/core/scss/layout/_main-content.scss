@@ -4,4 +4,26 @@
 .main {
   background-color: #030303;
   padding: 0 1rem 3rem;
+
+  &__btn-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border: 2px solid $main;
+    border-radius: 50%;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    z-index: 1;
+    background-color: #030303;
+
+    &:hover {
+      background-color: $main;
+      color: $black;
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
 }
