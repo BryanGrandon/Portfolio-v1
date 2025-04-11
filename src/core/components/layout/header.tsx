@@ -11,7 +11,7 @@ const Header = (): JSX.Element => {
   return (
     <header className='header-container'>
       <article className='header'>
-        <img src={image.src} alt={image.alt} className='header__img' />
+        <img src='./src/assets/photo.png' alt={image.alt} className='header__img' />
         <section className='header__info'>
           <section className='header__container'>
             <h1 className='header__title'>
