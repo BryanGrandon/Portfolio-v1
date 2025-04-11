@@ -3,7 +3,7 @@
         "name": "Bryan Grandón",
         "position": "Frontend Developer",
         "image": {
-            "src": "/src/assets/photo.webp",
+            "src": "./src/assets/photo.webp",
             "alt": "Bryan"
         },
         "gmail": "bryan.grandon.c@gmail.com"
@@ -27,7 +27,7 @@
             "title": "Color Palette",
             "description": "Generate your color palette for your projects",
             "image": {
-                "src": "/src/assets/projects/color-palette.webp",
+                "src": "./src/assets/projects/color-palette.webp",
                 "alt": "Color Palette webp"
             },
             "url": "https://bryangrandon.github.io/Color-Palette/",
@@ -72,7 +72,7 @@
             "title": "Pokedex",
             "description": "The pokedex is a device from the video game or animated series that allows you to view the statistics of the different pokemon.",
             "image": {
-                "src": "/src/assets/projects/pokedex.webp",
+                "src": "./src/assets/projects/pokedex.webp",
                 "alt": "Pokedex webp"
             },
             "url": "https://bryangrandon.github.io/Pokedex/",
@@ -101,7 +101,7 @@
             "title": "Rick and Morty",
             "description": "Find your favorite characters from the Rick and Morty series with their respective information that may surprise you.",
             "image": {
-                "src": "/src/assets/projects/rick-and-morty.webp",
+                "src": "./src/assets/projects/rick-and-morty.webp",
                 "alt": "Rick and Morty webp"
             },
             "url": "https://bryangrandon.github.io/Rick-and-Morty/",
@@ -134,7 +134,7 @@
             "title": "Nasa",
             "description": "Astronomical Image of the Day: Presents each day a different image or photograph of our fascinating universe, along with a brief explanation written by a professional astronomer.",
             "image": {
-                "src": "/src/assets/projects/nasa.webp",
+                "src": "./src/assets/projects/nasa.webp",
                 "alt": "Nasa webp"
             },
             "url": "https://bryangrandon.github.io/Nasa/",
