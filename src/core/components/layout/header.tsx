@@ -7,11 +7,12 @@ const Header = (): JSX.Element => {
   const { title, description } = data.header
   const { name, position, image } = data.staff
   const { social } = data.links
+  const src = image.src.split('./').join('')
 
   return (
     <header className='header-container'>
       <article className='header'>
-        <img src={image.src} alt={image.alt} className='header__img' />
+        <img src={src} alt={image.alt} className='header__img' />
         <section className='header__info'>
           <section className='header__container'>
             <h1 className='header__title'>
