@@ -3,7 +3,7 @@
         "name": "Bryan Grandón",
         "position": "Frontend Developer",
         "image": {
-            "src": "./src/assets/photo.png",
+            "src": "./src/assets/photo.jpg",
             "alt": "Bryan"
         },
         "gmail": "bryan.grandon.c@gmail.com"
