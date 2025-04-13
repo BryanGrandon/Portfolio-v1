@@ -5,13 +5,13 @@ import data from '../../services/data.json' assert { type: 'json' }
 
 const Header = (): JSX.Element => {
   const { title, description } = data.header
-  const { name, position, image } = data.staff
+  const { name, position } = data.staff
   const { social } = data.links
 
   return (
     <header className='header-container'>
       <article className='header'>
-        <img src='./src/assets/photo.jpg' alt={image.alt} className='header__img' />
+        <div className='header__img'></div>
         <section className='header__info'>
           <section className='header__container'>
             <h1 className='header__title'>

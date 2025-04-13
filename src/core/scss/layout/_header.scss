@@ -16,11 +16,14 @@
   min-height: 75dvh;
 
   &__img {
+    background-image: url('/src/assets/photo.jpg');
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
     height: 15rem;
     width: 15rem;
-    object-fit: contain;
-    object-position: top;
+    // object-fit: contain;
+    // object-position: top;
     box-shadow: 2px 2px 4px #333333;
   }
   &__info {
