@@ -10,7 +10,6 @@ describe('ProjectCard', () => {
     <ProjectCard
       key={data_1.id}
       url={data_1.url}
-      image={data_1.image}
       title={data_1.title}
       description={data_1.description}
       ariaLabel={data_1.ariaLabel}
