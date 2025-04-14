@@ -12,9 +12,10 @@
   &__image {
     background-image: url('/src/assets/photo.jpg');
     background-size: cover;
-    max-width: 15rem;
     border-radius: 50%;
-    box-shadow: 1px 1px 5px $black;
+    height: 15rem;
+    width: 15rem;
+    box-shadow: 2px 2px 4px #333333;
   }
   &__header {
     font-weight: bold;
@@ -30,7 +31,7 @@
     }
   }
   &__text {
-    max-width: 40rem;
+    max-width: 45rem;
     line-height: 1.7;
   }
 }
