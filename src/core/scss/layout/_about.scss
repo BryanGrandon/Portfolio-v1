@@ -10,6 +10,8 @@
     gap: 1rem;
   }
   &__image {
+    background-image: url('/src/assets/photo.jpg');
+    background-size: cover;
     max-width: 15rem;
     border-radius: 50%;
     box-shadow: 1px 1px 5px $black;
