@@ -13,7 +13,6 @@ const Projects = (): JSX.Element => {
           <ProjectCard
             key={e.id}
             url={e.url}
-            image={e.image}
             title={e.title}
             description={e.description}
             ariaLabel={e.ariaLabel}
