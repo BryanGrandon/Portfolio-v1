@@ -134,7 +134,7 @@
             "title": "Nasa",
             "description": "Astronomical Image of the Day: Presents each day a different image or photograph of our fascinating universe, along with a brief explanation written by a professional astronomer.",
             "image": {
-                "src": "assets/nasa.webp",
+                "src": "./src/assets/nasa.webp",
                 "alt": "Nasa webp"
             },
             "url": "https://bryangrandon.github.io/Nasa/",
