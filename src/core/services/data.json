@@ -98,34 +98,26 @@
         },
         {
             "id": 3,
-            "title": "Rick and Morty",
-            "description": "Find your favorite characters from the Rick and Morty series with their respective information that may surprise you.",
+            "title": "Midas touch",
+            "description": "We foster the growth of new talent through training, mentoring and real opportunities. We transform potential into trajectory.",
             "image": {
-                "src": "/src/assets/rick-and-morty.webp",
-                "alt": "Rick and Morty webp"
+                "src": "/src/assets/midas-touch.webp",
+                "alt": "Midas-touch webp"
             },
-            "url": "https://bryangrandon.github.io/Rick-and-Morty/",
-            "ariaLabel": "link Rick and Morty",
+            "url": "https://bryangrandon.github.io/Midas-Touch/",
+            "ariaLabel": "Midas-touch",
             "technologies": [
-                {
-                    "alt": "React",
-                    "img": "https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"
-                },
                 {
                     "alt": "TS",
                     "img": "https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"
                 },
                 {
-                    "alt": "Vite",
-                    "img": "https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff"
+                    "alt": "Astro",
+                    "img": "https://img.shields.io/badge/Astro-ff5d01?style=flat&logo=astro&logoColor=ff5d0100&labelColor=191919"
                 },
                 {
-                    "alt": "Sass",
-                    "img": "https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white"
-                },
-                {
-                    "alt": "ReactIcons",
-                    "img": "https://img.shields.io/badge/React_icons-2D3136.svg?style=flat&logo=react&logoColor=white"
+                    "alt": "Tailwind CSS",
+                    "img": "https://img.shields.io/badge/Tailwind_CSS-grey?style=flat&logo=tailwind-css&logoColor=38B2AC"
                 }
             ]
         },
