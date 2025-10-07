@@ -2,7 +2,7 @@
 
 Generate your color palette for your projects
 
-- [🌐 Website Demo.](https://bryangrandon.github.io/Portfolio/)
+- [🌐 Website Demo.](https://bryangrandon.github.io/Portfolio-1/)
 
 ## 📚 Technologies Used
 
