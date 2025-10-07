@@ -17,13 +17,13 @@ Generate your color palette for your projects
 Clone the repository:
 
 ```bash
-git clone https://github.com/BryanGrandon/Color-Palette.git
+git clone https://github.com/BryanGrandon/Portfolio-1.git
 ```
 
 Access the project folder
 
 ```bash
-cd Color-Palette
+cd Portfolio-1
 ```
 
 Install all the project dependencies with:
