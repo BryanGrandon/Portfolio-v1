@@ -1,8 +1,6 @@
-# Portfolio
+# Portfolio v1
 
-Generate your color palette for your projects
-
-- [🌐 Website Demo.](https://bryangrandon.github.io/Portfolio-1/)
+- [🌐 Website Demo.](https://bryangrandon.github.io/Portfolio-v1/)
 
 ## 📚 Technologies Used
 
@@ -17,13 +15,13 @@ Generate your color palette for your projects
 Clone the repository:
 
 ```bash
-git clone https://github.com/BryanGrandon/Portfolio-1.git
+git clone https://github.com/BryanGrandon/Portfolio-v1.git
 ```
 
 Access the project folder
 
 ```bash
-cd Portfolio-1
+cd Portfolio-v1
 ```
 
 Install all the project dependencies with:
